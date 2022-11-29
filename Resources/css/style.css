@@ -19,7 +19,11 @@ body {
 }
 
 .brushes {
-    background-color: mediumspringgreen;
+    background-color: skyblue;
+    transition: all 2s;
+}
+.brushes:hover {
+    filter: hue-rotate(360deg);
 }
 
 .frames {
